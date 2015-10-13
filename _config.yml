@@ -21,7 +21,7 @@ lang: "en"
 title: "{ Miguel Asencio }"
 favicon: "/img/favicon.ico"
 description: "Blog and website of Miguel Asencio, blogging mainly for tech. Opinions expressed are mine."
-keywords: "Miguel, Angel, Asencio, Hurtado, software, programmer, maasencioh"
+keywords: "Miguel, Angel, Asencio, Hurtado, software, programmer, maasencioh, machine learning, data science, data scientist, computer, computer science, big data"
 
 ################
 # Intro layout #
@@ -66,6 +66,24 @@ disqus-shortname: "maasencioh"
 ###############
 
 events:
+  - image: "/img/career/epfl.jpg"
+    date: "June 2015 - August 2015"
+    description: "Internship in EPFL"
+  - image: "/img/career/cheminfo.jpg"
+    date: "November 2014 - Today"
+    description: "Data scientist in <a href='http://www.cheminfo.org/'>Cheminformatics</a>"
+  - image: "/img/career/casalgob.jpg"
+    date: "November 2014 - January 2015"
+    description: "Web developer in <a http='http://www.casalgob.com/'>Casa del alcalde y el gobernador</a>"
+  - image: "/img/career/museum.jpg"
+    date: "September 2014 - June 2015"
+    description: "Auxiliar student in <a href='http://www.cienciayjuego.com/'>science and game museum</a>"
+  - image: "/img/career/flisol.png"
+    date: "January 2014 - June 2014"
+    description: "Exponent in <a href='http://flisolbogota.org/'>FLISOL Bogota</a> 2014"
+  - image: "/img/career/gnu.png"
+    date: "January 2014 - June 2014"
+    description: "<a href='http://tecsistematizaciondatos.udistrital.edu.co:8080/diplomados'>Free software for business diploma</a>"
   - image: "/img/career/computer_science.jpg"
     date: "February 2014 - Today"
     description: "Change my bachelor to computer science"
