@@ -94,6 +94,14 @@ events:
 # First image of the Career timeline
 career-img: "/img/career/baby.jpg"
 
+################
+# Certificates #
+################
+
+certificates:
+- title: "TO DO"
+  date: "sorry"
+
 ##################
 # Contact layout #
 ##################
@@ -134,7 +142,7 @@ pages_list:
   About: 'about'
   Blog: 'blog'
   Career: 'career'
-  #Certificates: 'certificates'
+  Certificates: 'certificates'
   Contact: 'contact'
 
 # Pagination path
