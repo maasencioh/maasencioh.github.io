@@ -134,7 +134,7 @@ pages_list:
   About: 'about'
   Blog: 'blog'
   Career: 'career'
-  Certificates: 'certificates'
+  #Certificates: 'certificates'
   Contact: 'contact'
 
 # Pagination path

@@ -2,8 +2,16 @@
 layout: post
 section-type: post
 title: Welcome page
-category: tech
-tags: [ 'hello', 'world' ]
+category: general
+tags: [ 'hello', 'world', 'goals' ]
 ---
 
-This is my first blog entry, so please be kind with me.
+This is my first blog entry, so it's more like a "hello world" and welcome post, so please be kind with me.
+
+The main goal for this blog is have some cheat-sets for the future, so if I found something interesting I'll try to explain it in the most simple but complete way, because in a (probably near) future I wont remember it and I would like to have a simple and complete information about it.
+
+As a conclusion, my lack of good memory will make me a good source of interesting topics (at least for me), with a big focus into the practical way to do it.
+
+If you have any suggestion to talk make a comment below or in this repository issues.
+
+Thanks for reading and I see you later.
