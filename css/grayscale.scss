@@ -158,7 +158,11 @@ ol {
         display: table-cell;
         vertical-align: middle;
         .brand-heading {
-            font-size: 40px;
+            height: 290px;
+        }
+
+        .small-heading {
+            height: 50px;
         }
 
         .intro-text {
@@ -416,4 +420,8 @@ body {
 
 .certificate:hover{
     background-color: rgba(255, 255, 255, 0.1);
+}
+
+.hidden {
+    display: none;
 }
