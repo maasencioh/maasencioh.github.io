@@ -1,159 +1,40 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Polyglot settings
+languages: ["en", "es", "fr"]
+default_lang: "en"
+exclude_from_localization: ["javascript", "images", "css"]
+
 # Site settings
-
-url: "http://maasencioh.github.io"
-
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-
-#baseurl: /personal-jekyll-theme
-
 google-tracking-id: "UA-58305221-2"
 
-#############
-# HTML Head #
-#############
+title: Miguel Asencio
+email: maasencioh@gmail.com
+description: >
+  This is my geek corner, a space to show my skills, interest and opinions.
+  I hope you enjoy it!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://maasencioh.github.io" # the base hostname & protocol for your site
+twitter_username: maasencioh
+github_username:  maasencioh
 
-author: "Miguel Asencio"
-lang: "en"
-title: "{ Miguel Asencio }"
-favicon: "/img/favicon.ico"
-description: "This is my personal page and blog, my name is Miguel Asencio and be welcomed."
-keywords: "Miguel, Angel, Asencio, Hurtado, software, programmer, maasencioh, machine learning, data science, data scientist, computer, computer science, big data, github pages, personal, page, Bogota, Colombia, programador"
+# atom feed
+name: Miguel Asencio
+author:
+  name: Miguel Angel Asencio Hurtado
+  email: maasencioh@gmail.com
 
-################
-# Intro layout #
-################
+# Build settings
+markdown: kramdown
 
-#black-favicon: "/img/black-lab-glass.ico"
-background-img: "../img/cover.jpg"
-me-img: "/img/profile.jpg"
-
-##############################
-# Dynamic Text on the header #
-##############################
-
-dynamic-typing: True
-shuffle: True	# Shuffle the lines.
-loop: True
-loop-count:	False # Set False for infinite loop, or set any number for finite loop.
-type-speed:	10		# Default 10
-start-delay: 200	# Default 200
-delete-delay: 10000	# Default 5000
-lines:			# You can add HTML Tags in the Text
-  - text: "On ne voit bien qu'avec le coeur. L'essentiel est invisible pour les yeux."
-  - text: "Software is like sex, it's better when it's free."
-  - text: "Follow your heart, dare to love what you do"
-  - text: "$ sudo make a_sandwich"
-  - text: "Think different!!!"
-
-########
-# Blog #
-########
-
-post-preview-words: 128
-
-paginate: 7
-
-fb-share: True
-gp-share: True
-twitter-share: True
-disqus-shortname: "maasencioh"
-
-###############
-# Life Events #
-###############
-
-events:
-  - image: "/img/career/epfl.jpg"
-    date: "June 2015 - August 2015"
-    description: "Internship in EPFL"
-  - image: "/img/career/cheminfo.jpg"
-    date: "November 2014 - Today"
-    description: "Data scientist in <a href='http://www.cheminfo.org/'>Cheminformatics</a>"
-  - image: "/img/career/casalgob.jpg"
-    date: "November 2014 - January 2015"
-    description: "Web developer in <a http='http://www.casalgob.com/'>Casa del alcalde y el gobernador</a>"
-  - image: "/img/career/museum.jpg"
-    date: "September 2014 - June 2015"
-    description: "Auxiliar student in <a href='http://www.cienciayjuego.com/'>science and game museum</a>"
-  - image: "/img/career/flisol.png"
-    date: "January 2014 - June 2014"
-    description: "Exponent in <a href='http://flisolbogota.org/'>FLISOL Bogota</a> 2014"
-  - image: "/img/career/gnu.png"
-    date: "January 2014 - June 2014"
-    description: "<a href='http://tecsistematizaciondatos.udistrital.edu.co:8080/diplomados'>Free software for business diploma</a>"
-  - image: "/img/career/computer_science.jpg"
-    date: "February 2014 - Today"
-    description: "Change my bachelor to computer science"
-  - image: "/img/career/electronics.jpg"
-    date: "February 2010 - December 2013"
-    description: "Start studying electronics engineering"
-
-# First image of the Career timeline
-career-img: "/img/career/baby.jpg"
-
-################
-# Certificates #
-################
-
-certificates:
-- title: "TO DO"
-  date: "sorry"
-
-##################
-# Contact layout #
-##################
-
-email: "maasencioh@gmail.com"
-
-##################
-# Social Buttons #
-##################
-
-social:
-  - title: "github"
-    url: "https://github.com/maasencioh"
-  - title: "twitter"
-    url: "https://twitter.com/maasencioh"
-  - title: "facebook"
-    url: "https://www.facebook.com/miguel.bratsche"
-  - title: "linkedin"
-    url: "https://co.linkedin.com/pub/miguel-angel-asencio-hurtado/34/9a7/228"
-  - title: "google-plus"
-    url: "https://google.com/+MiguelAsencio"
-
-############
-# 404 page #
-############
-
-404-img: "/img/404.png"
-
-################################################################################
-
-# Tread carefully if you want to change the variables below this point!
-
-# Navigation bar links
-# Blog link in the blog and post pages will point to the blog.html#blog
-# In the default page it will point to the preview of the last post
-
-pages_list:
-  About: 'about'
-  Blog: 'blog'
-  Career: 'career'
-  Certificates: 'certificates'
-  Contact: 'contact'
-
-# Pagination path
-paginate_path: "blog/page:num"
-
-# Enable minification SASS
-sass:
-  style: compressed
-
-# Exclusion list from the generated _site
-exclude: ["Rakefile", "LICENSE", "README.md", "vendor"]
-
+# gems
 gems:
+  - jemoji
+  - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-feed
