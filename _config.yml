@@ -5,11 +5,6 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-# Polyglot settings
-languages: ["en", "es", "fr"]
-default_lang: "en"
-exclude_from_localization: ["javascript", "images", "css"]
-
 # Site settings
 google-tracking-id: "UA-58305221-2"
 title: Miguel Asencio
