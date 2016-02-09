@@ -1,8 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+description: This should be an initial description
+permalink: /about
 ---
-
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Hello, this should be the about {% include icon-github.html username="jekyll" %} [jekyll](https://github.com/jekyll/jekyll)
