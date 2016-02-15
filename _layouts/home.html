@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+	{% include head.html %}
+	<body class="landing">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+				{% include header.html %}
+
+				<!-- Banner -->
+				<section id="banner">
+					<div class="inner">
+						<h2>{{ site.title }}</h2>
+						<p>{{ site.subtitle }}</p>
+					</div>
+					<a href="#one" class="more scrolly">Learn More</a>
+				</section>
+
+				<!-- One -->
+				<section id="one" class="wrapper style1 special">
+					<div class="inner">
+						<header class="major">
+							<h2>Hi stranger!</h2>
+                            <p>Thanks for visit my personal page, my name is Miguel Angel Asencio Hurtado<br/>
+                            and I’m a colombian data scientist, web and mobile developer.<br/>
+                            If you want to know more about me you can go to the <a href="about">about</a> section<br/>
+                            or you can just <a href="contact">contact</a> me and talk personally to me.
+                            </p>
+						</header>
+						<ul class="icons major">
+							<li><span class="icon fa-html5 major style3"><span class="label">HTML5</span></span></li>
+							<li><span class="icon fa-css3 major style2"><span class="label">CSS3</span></span></li>
+							<li><span class="icon fa-android major style1"><span class="label">Android</span></span></li>
+						</ul>
+					</div>
+				</section>
+
+				<!-- Two -->
+				<section id="two" class="wrapper alt style2">
+                    <h2 style="display: none">Posts</h2>
+                    {% for post in site.posts %}
+                        <section class="spotlight">
+                            <div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
+                                <h2>
+                                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                                </h2>
+                                <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+                                <p>{{ post.excerpt }}</p>
+                            </div>
+                        </section>
+                    {% endfor %}
+				</section>
+
+				<!-- Three -->
+				<section id="three" class="wrapper style3 special">
+					<div class="inner">
+						<header class="major">
+							<h2>Abilities and knowledge</h2>
+							<p>During my life time I've been learning different thinks that I applied in my life and thanks to that now I'm who I am.<br/>
+                            This are some of those adquired abilities and knowledge</p>
+						</header>
+						<ul class="features">
+							{% for f in site.abilities %}
+                                <li class="icon fa-{{ f.icon }}">
+                                    <h3>{{ f.title }}</h3>
+                                    <p>{{ f.content }}</p>
+                                </li>
+                            {% endfor %}
+						</ul>
+					</div>
+				</section>
+
+				<!-- CTA -->
+				<section id="cta" class="wrapper style4">
+					<div class="inner">
+						<header>
+							<h2>Contact me!</h2>
+							<p>As a good geek, I’m (really) bad saying not to an interesting project, so if you have something that you would like to do, or if you just want to have a talk, please let me help you!</p>
+						</header>
+						<ul class="actions vertical">
+							<li><a href="contact" class="button fit special">Contact me</a></li>
+							<li><a href="about" class="button fit">About me</a></li>
+						</ul>
+					</div>
+				</section>
+
+				<!-- Footer -->
+				{% include footer.html %}
+
+			</div>
+
+		<!-- Scripts -->
+        <script src="{{ "/assets/js/jquery.min.js" | prepend: site.baseurl }}"></script>
+		<script src="{{ "/assets/js/jquery.scrollex.min.js" | prepend: site.baseurl }}"></script>
+		<script src="{{ "/assets/js/jquery.scrolly.min.js" | prepend: site.baseurl }}"></script>
+		<script src="{{ "/assets/js/skel.min.js" | prepend: site.baseurl }}"></script>
+		<script src="{{ "/assets/js/util.js" | prepend: site.baseurl }}"></script>
+		<!--[if lte IE 8]><script src="{{ "/assets/js/ie/respond.min.js" | prepend: site.baseurl }}"></script><![endif]-->
+		<script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
+
+	</body>
+</html>
