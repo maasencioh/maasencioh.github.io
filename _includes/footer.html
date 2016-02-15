@@ -1,38 +1,13 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
-
-  </div>
-
+<footer id="footer">
+    <ul class="icons">
+        <li><a href="https://github.com/{{ site.github_username }}" class="icon fa-github"><span class="label">GitHub</span></a></li>
+        <li><a href="https://twitter.com/{{ site.twitter_username }}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+        <li><a href="https://www.facebook.com/{{ site.facebook_username }}" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+        <li><a href="https://www.linkedin.com/in/miguel-angel-asencio-hurtado-2289a734" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+        <li><a href="https://plus.google.com/{{ site.google_username }}" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+        <li><a href="mailto:{{ site.email }}" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+    </ul>
+    <ul class="copyright">
+        <li>&copy; {{ site.title }}</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+    </ul>
 </footer>
