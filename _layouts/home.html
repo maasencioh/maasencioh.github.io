@@ -19,23 +19,7 @@
 				</section>
 
 				<!-- One -->
-				<section id="one" class="wrapper style1 special">
-					<div class="inner">
-						<header class="major">
-							<h2>Hi stranger!</h2>
-                            <p>Thanks for visit my personal page, my name is Miguel Angel Asencio Hurtado<br/>
-                            and I’m a colombian data scientist, web and mobile developer.<br/>
-                            If you want to know more about me you can go to the <a href="about">about</a> section<br/>
-                            or you can just <a href="contact">contact</a> me and talk personally to me.
-                            </p>
-						</header>
-						<ul class="icons major">
-							<li><span class="icon fa-html5 major style3"><span class="label">HTML5</span></span></li>
-							<li><span class="icon fa-css3 major style2"><span class="label">CSS3</span></span></li>
-							<li><span class="icon fa-android major style1"><span class="label">Android</span></span></li>
-						</ul>
-					</div>
-				</section>
+				{% include introduction.html %}
 
 				<!-- Two -->
 				<section id="two" class="wrapper alt style2">
@@ -54,23 +38,7 @@
 				</section>
 
 				<!-- Three -->
-				<section id="three" class="wrapper style3 special">
-					<div class="inner">
-						<header class="major">
-							<h2>Abilities and knowledge</h2>
-							<p>During my life time I've been learning different thinks that I applied in my life and thanks to that now I'm who I am.<br/>
-                            This are some of those adquired abilities and knowledge</p>
-						</header>
-						<ul class="features">
-							{% for f in site.abilities %}
-                                <li class="icon fa-{{ f.icon }}">
-                                    <h3>{{ f.title }}</h3>
-                                    <p>{{ f.content }}</p>
-                                </li>
-                            {% endfor %}
-						</ul>
-					</div>
-				</section>
+				{% include abilities.html %}
 
 				<!-- CTA -->
 				<section id="cta" class="wrapper style4">

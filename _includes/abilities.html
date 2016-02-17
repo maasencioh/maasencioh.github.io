@@ -1,0 +1,17 @@
+<section id="three" class="wrapper style3 special">
+    <div class="inner">
+        <header class="major">
+            <h2>Abilities and knowledge</h2>
+            <p>During my life time I've been learning different thinks that I applied in my life and thanks to that now I'm who I am.<br/>
+            This are some of those adquired abilities and knowledge</p>
+        </header>
+        <ul class="features">
+            {% for f in site.data.abilities %}
+                <li class="icon fa-{{ f.icon }}">
+                    <h3>{{ f.title }}</h3>
+                    <p>{{ f.content }}</p>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
