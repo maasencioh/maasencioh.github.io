@@ -1,5 +1,6 @@
 ---
 layout:      post
+image:       pic01.jpg
 title:       "A short autobiography"
 date:        2016-02-16 14:00:00 -0500
 description: This is my first post and will be a short autobiography

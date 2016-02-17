@@ -42,7 +42,7 @@
                     <h2 style="display: none">Posts</h2>
                     {% for post in site.posts %}
                         <section class="spotlight">
-                            <div class="image"><img src="images/pic01.jpg" alt="{{ post.title }}" /></div><div class="content">
+                            <div class="image"><img src="images/posts/{{ post.image }}" alt="{{ post.title }}" /></div><div class="content">
                                 <h2>
                                   <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                                 </h2>
