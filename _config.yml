@@ -1,35 +1,5 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 google-tracking-id: "UA-58305221-2"
-
-title: Miguel Asencio
-email: maxasencxioh@gxxmail.xcomx
-description: >
-  This is my geek corner, a space to show my skills, interest and opinions.
-  I hope you enjoy it!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://maasencioh.github.io" # the base hostname & protocol for your site
-twitter_username:   maasencioh
-github_username:    maasencioh
-facebook_username:  miguel.bratsche
-google_username:    +MiguelAsencio
-
-# Page generation
-subtitle: >
-  This is my geek corner, a space to show my skills, <br>
-  interest and opinions. I hope you enjoy it!
-
-# atom feed
-name: Miguel Asencio
-author:
-  name: Miguel Angel Asencio Hurtado
-  email: maasencioh@gmail.com
 
 # Build settings
 markdown: kramdown

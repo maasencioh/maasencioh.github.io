@@ -1,6 +1,6 @@
-# Welcome
+# Miguel Asencio
 
-This is my personal page, it's based in the [HTML5 up - spectral](http://html5up.net/spectral) template.
+> Welcome to my personal page
 
 ## Articles
 
