@@ -3,7 +3,10 @@
   "description": "My personal page",
   "main": "index.html",
   "dependencies": {
-    "polymer": "Polymer/polymer#^1.4.0"
+    "polymer": "Polymer/polymer#^1.4.0",
+    "paper-toolbar": "PolymerElements/paper-toolbar#^1.1.6",
+    "paper-icon-button": "PolymerElements/paper-icon-button#^1.1.2",
+    "paper-drawer-panel": "PolymerElements/paper-drawer-panel#^1.0.9"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
