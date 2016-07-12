@@ -1,0 +1,7 @@
+{
+  "name": "maasencioh-github-io",
+  "short_name": "maasencioh-github-io",
+  "description": "My personal page",
+  "start_url": "/",
+  "display": "standalone"
+}
